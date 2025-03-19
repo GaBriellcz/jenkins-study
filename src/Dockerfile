@@ -6,7 +6,7 @@ WORKDIR /flask_app
 
 RUN pip install requests flask
 
-COPY app.py .
+COPY src/app.py . 
 
 HEALTHCHECK CMD \
   curl -sf localhost:5000/health || exit 1
