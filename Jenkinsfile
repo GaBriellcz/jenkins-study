@@ -9,11 +9,11 @@ pipeline {
                 }
             }
         }
-        stage('Push Docker Image') {
-            steps {
+        // stage('Push Docker Image') {
+        //     steps {
                 
-            }
-        }
+        //     }
+        // }
         // stage('Deploy no Kubernetes') {
         //     steps {
                 
